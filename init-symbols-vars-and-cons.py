@@ -4,7 +4,6 @@
 ## Init in-digit operators like hexadecimal point and co-point
 ## Init in-digit and in-operator functor notation, the '...' symbol
 
-dx = 32
 # Var / var_x
 d = draw.Drawing(dx,dx)
 d_line = draw.Line(0,dx,dx,dx, stroke='black', stroke_width=str(dx/8))
