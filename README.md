@@ -1,8 +1,8 @@
-# TreiScript
+# TreiScript (BETA)
 SVG-formula maker in an alternative mathematical notation-system (TreiScript)
 
 
-## Warning: The shared codes are only in experimental phase!
+## Warning: The shared codes are only in experimental phase! A.k.a. Beta version!
 
 
 ## Abstract
