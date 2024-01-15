@@ -76,8 +76,6 @@ d.append(draw.Line(dx/2,dx/2,.2*dx+dx/6,dx/2, stroke='black', stroke_width=str(d
 d_set_Zm0 = d
 
 # Ops / set_in{A}{B}
-A = d_var_y
-B = d_set_R
 def set_in(A,B):
   nomenic = False
   if isinstance(B,str):

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE treiscript>
+<data>
+    <classification>
+        <msc>
+            <primary version='MSC2020'>
+                <code level='1'>00</code>
+                <code level='2'>A</code>
+                <code level='3'>05</code>
+            </primary>
+        </msc>
+        <library src='LCC'>
+            <primary version='May 2023'>
+                <code level='1'>PM</code>
+                <code level='2'>8999</code>
+            </primary>
+            <secondary version='May 2023'>
+                <code level='1'>QA</code>
+                <code level='2'>1</code>
+            </secondary>
+        </library>
+        <library src='UDC'>
+            <primary version='December 2018'>
+                <code level='1'>811</code>
+                <code level='2'>92</code>
+            </primary>
+            <secondary version='December 2018'>
+                <code level='1'>81</code>
+                <code level='2'>32</code>
+            </secondary>
+            <tertiary version='December 2018'>
+                <code level='1'>510</code>
+            </tertiary>
+        </library>
+    </classification>
+    <meta>
+        <data name='doi' value=''></data>
+        <data name='reseacherid' value=''></data>
+        <data name='orcid' value=''></data>
+        <data name='author' value=''></data>
+        <data name='licenses' value='CC0'></data>
+        <data name='createduct' value=''></data>
+        <data name='claimeduct' value=''></data>
+    </meta>
+    <version type='beta'>0.1</version>
+    <title>TreiScript</title>
+    <source>
+        <svg version='0.1'></svg>
+        <script name='treiscript' version='0.1'>
+            <code level='bare'>mul(d_var_x,d_var_y)</code>
+            <code level='shortened'>mul(x,y)</code>
+            <code level='infixed'>x +[2] y</code>
+            <code level='bridge'>x * y</code>
+        </script>
+        <script name='external' src=''></script>
+    </source>
+    <intention>
+        <declared title='' author=''>
+            <p></p>
+            <param name='image'>
+                <data name='dim' value='2-D'></data>
+                <data name='width' value=''></data>
+                <data name='height' value=''></data>
+                <data name='channels' value='1'>
+                    <color>black</color>
+                </data>
+                <data name='bitdepth' value='1'></data>
+                <data name='background' value='transparent'></data>
+                <data name='dx' value='32'></data>
+                <data name='caption' value='Formula a)'></data>
+                <data name='handfriendly' value='True'></data>
+                <data name='complexity' value='1'></data>
+                <data name='' value=''></data>
+            </param>
+            <param name='formula'>
+                <data name='porpuse' value='experimental'></data>
+                <data name='mainentity'>
+                    <relation>
+                        <data name='arity' value='2'></data>
+                        <data name='argnum' value='2'></data>
+                        <data name='category' value='relation'></data>
+                        <data name='subcategory' value='comperision'></data>
+                    </relation>
+                </data>
+                <data name='digits'>
+                    <data name='consistent' value='True'></data>
+                    <data name='base' value='16'></data>
+                    <data name='cardinality' value='lt-c'></data>
+                    <data name='arity' value='2'></data>
+                    <data name='point' value='False'></data>
+                    <data name='functor' value='False'></data>
+                    <data name='exact' value='True'></data>
+                    <data name='constants' value='False'></data>
+                    <data name='nonstandard' value='False'></data>
+                </data>
+                <data name='ops'>
+                    <data name='arity' value='2'></data>
+                    <data name='argnum' value='2'></data>
+                    <data name='maxiteration' value='2'></data>
+                    <data name='transiteratednum' value='0'></data>
+                    <data name='recursive' value='False'></data>
+                    <data name='maxcorrespondence' value='1'></data>
+                    <data name='functor' value='False'></data>
+                    <data name='inlinedef' value='False'></data>
+                </data>
+                <data name='bigops'>
+                    <data name='arity' value='2'></data>
+                    <data name='maxiteration' value='1'></data>
+                    <data name='transiteratednum' value='0'></data>
+                    <data name='indexnum' value='1'></data>
+                    <data name='indexsetdef' value='bounds'></data>
+                    <data name='maxcardinality' value='lt-c'></data>
+                    <data name='anyquantor' value='False'></data>
+                    <data name='operandtype' value='digits'></data>
+                    <data name='arranged' value='False'></data>
+                </data>
+                <data name='structs'>
+                    <data name='arity' value='2'></data>
+                    <data name='maxdim' value='1'></data>
+                    <data name='maxdepth' value='1'></data>
+                    <data name='maxcardinality' value='lt-c'></data>
+                    <data name='inlinedef' value='False'></data>
+                </data>
+                <data name='modality'>
+                    <primary>
+                        <data name='purpose' value='definition'></data>
+                        <data name='knowledge' value='known'></data>
+                        <data name='state' value='declaration'></data>
+                        <data name='certainity' value='certain'></data>
+                        <data name='probability' value='1.0'></data>
+                        <data name='emotion' value='neutral'></data>
+                    </primary>
+                    <secondary>
+                    </secondary>
+                </data>
+            </param>
+        </declared>
+    </intention>
+</data>
